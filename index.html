@@ -53,37 +53,43 @@
       
     } */
 
-.portfolio-item {
-  width: flex;
-  height: 90px;       /* fixed height for all items */
-  display: flex;
-  align-items: center; /* center vertically */
-  justify-content: center; /* center horizontally */
-  overflow: hidden;    /* hide overflow */
-}
+    .portfolio-item {
+      width: flex;
+      height: 90px;
+      /* fixed height for all items */
+      display: flex;
+      align-items: center;
+      /* center vertically */
+      justify-content: center;
+      /* center horizontally */
+      overflow: hidden;
+      /* hide overflow */
+    }
 
-.portfolio-item img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain; /* scale down, no distortion */
-}
+    .portfolio-item img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      /* scale down, no distortion */
+    }
 
-.portfolio-item {
-  /* border-left: 1px solid #000000; */
-  border-right: 1px solid #898989;
-}
+    .portfolio-item {
+      /* border-left: 1px solid #000000; */
+      border-right: 1px solid #898989;
+    }
 
-.portfolio-item:nth-child(2n) {
-  border-right: none; /* remove line after every 2 items on mobile */
-}
+    .portfolio-item:nth-child(2n) {
+      border-right: none;
+      /* remove line after every 2 items on mobile */
+    }
 
-@media (min-width: 768px) {
-  .portfolio-item {
-    border-right: none; /* remove line after every 6 items on medium screens */
-  }
-}
-
-</style>
+    @media (min-width: 768px) {
+      .portfolio-item {
+        border-right: none;
+        /* remove line after every 6 items on medium screens */
+      }
+    }
+  </style>
 
   <script type="text/javascript" src="./js/modernizr.custom.js"></script>
 
@@ -179,8 +185,9 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-6 web">
-        <h4>Hospitality</h4>
+      <h1>Hospitality</h1>
+      <div class="col-sm-4">
+        <!-- <h4>Hospitality</h4> -->
         <div class="owl-carousel owl-theme">
           <div class="item">
             <img class="property-img" src="./img/Hospitality/avid.jpg" class="img-responsive">
@@ -202,10 +209,86 @@
             <img class="property-img" src="./img/Hospitality/residence.jpg" class="img-responsive">
             <h3>Residence Inn - Durango, CO</h3>
           </div>
+          <div class="item"> <!-- Added Sept 25 -->
+            <img class="property-img" src="./img/Hospitality/sept25/Best Western, Green Bay, WI.jpg"
+              class="img-responsive">
+            <h3>Best Western, Green Bay, WI</h3>
+          </div>
         </div>
       </div>
-      <div class="col-sm-12 col-md-6 col-lg-6 web">
-        <h4>Residential</h4>
+      <div class="col-sm-4"> <!-- Added Sept 25 -->
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img class="property-img" src="./img/Hospitality/sept25/Comfort Inn, Alamosa, CO.jpg"
+              class="img-responsive">
+            <h3>Comfort Inn, Alamosa, CO</h3>
+          </div>
+          <div class="item">
+            <img class="property-img" src="./img/Hospitality/sept25/Comfort_Mainstay Suites, Colorado Springs, CO.jpg"
+              class="img-responsive">
+            <h3>Comfort Mainstay Suites, Colorado Springs, CO</h3>
+          </div>
+          <div class="item">
+            <img class="property-img" src="./img/Hospitality/sept25/Fairfield Inn & Suites, Alamosa, CO.jpg"
+              class="img-responsive">
+            <h3>Fairfield Inn & Suites, Alamosa, CO</h3>
+          </div>
+          <div class="item">
+            <img class="property-img" src="./img/Hospitality/sept25/Fairfield Inn & Suites, Corpus Christi, TX.jpg"
+              class="img-responsive">
+            <h3>Fairfield Inn & Suites, Corpus Christi, TX</h3>
+          </div>
+          <div class="item">
+            <img class="property-img" src="./img/Hospitality/sept25/Fairfield Inn & Suites, Fort Morgan, CO.jpg"
+              class="img-responsive">
+            <h3>Fairfield Inn & Suites, Fort Morgan, CO</h3>
+          </div>
+          <div class="item">
+            <img class="property-img" src="./img/Hospitality/sept25/Hampton Inn, Alamosa, CO.jpg"
+              class="img-responsive">
+            <h3>Hampton Inn, Alamosa, CO</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4"><!-- Added Sept 25 -->
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img class="property-img" src="./img/Hospitality/sept25/Hampton Inn, Cortez, CO.jpg" class="img-responsive">
+            <h3>Hampton Inn, Cortez, CO</h3>
+          </div>
+          <div class="item">
+            <img class="property-img" src="./img/Hospitality/sept25/Hampton Inn, Fort Collins, CO.jpg"
+              class="img-responsive">
+            <h3>Hampton Inn, Fort Collins, CO</h3>
+          </div>
+          <div class="item">
+            <img class="property-img" src="./img/Hospitality/sept25/Holiday Inn Express, Lasvegas.jpg"
+              class="img-responsive">
+            <h3>Holiday Inn Express, Lasvegas</h3>
+          </div>
+          <div class="item">
+            <img class="property-img" src="./img/Hospitality/sept25/Quality Inn, Trinidad,CO.jpg"
+              class="img-responsive">
+            <h3>Quality Inn, Trinidad,CO</h3>
+          </div>
+          <div class="item">
+            <img class="property-img" src="./img/Hospitality/sept25/Residence Inn, Corpus Christi, TX.jpg"
+              class="img-responsive">
+            <h3>Residence Inn, Corpus Christi, TX</h3>
+          </div>
+          <div class="item">
+            <img class="property-img" src="./img/Hospitality/sept25/Spark by Hilton, Corpus Christi.jpg"
+              class="img-responsive">
+            <h3>Spark by Hilton, Corpus Christi</h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row" style="padding-top:30px !important;">
+      <h1>Residential</h1>
+      <div class="col-sm-6 col-sm-offset-3">
+        <!-- <h4>Residential</h4> -->
         <div class="owl-carousel-res owl-theme">
           <div class="item">
             <img class="property-img" src="./img/Residential/huntsville.png" class="img-responsive">
