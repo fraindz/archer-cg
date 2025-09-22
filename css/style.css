@@ -184,7 +184,7 @@ hr {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    color: #ffffff;
+    color: #032e3a;
     padding: 20px 0;
     width: 100%;
     z-index: 1;
@@ -197,7 +197,7 @@ hr {
 /* Blockquote header */
 .blockquote h1 {
     position: relative;
-    color: #FFFFFF;
+    color: #032e3a;
     font-size: 25px;
     font-weight: 800;
     line-height: 1;
@@ -208,7 +208,7 @@ hr {
 .blockquote:after {
     position: absolute;
     content: "”";
-    color: rgba(255, 255, 255, 1);
+    color: #032e3a;
     font-size: 10rem;
     line-height: 0;
     bottom: -43px;
@@ -568,12 +568,18 @@ ol.type li a:hover {
 #about-section {
 	padding: 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
-	background: rgb(3,39,49); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
-	color: #dfffff;
+	/* background: rgb(3,39,49); Old browsers */
+	/* background: -moz-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); FF3.6-15 */
+	/* background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); Chrome10-25,Safari5.1-6 */
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
+
+/* background: linear-gradient(to bottom,  #032731 0%,#032e3a 20%,#032e3a 100%,#032731 100%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+/* background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); */
+	background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 20%, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); IE6-9 */
+	color: #032e3a;
+	/* color: #dfffff; */
 }
 #about-section p {
 /*	margin-left: 100px;
@@ -595,6 +601,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 	color: #f3ca27;
 	padding-right: 5px;
 }
+
+/* .blockquote h1
+{
+	color: #032e3a;
+}
+
+.blockquote
+{
+	color: #032e3a;
+}
+
+.blockquote-wrapper
+{
+	color: #032e3a;
+} */
+
 /* Team Section */
 #team-section {
 	padding: 80px 0;
@@ -734,6 +756,9 @@ label {
 #contact-section .social {
 	margin-top: 60px;
 }
+#contact-section .social ul {
+	padding-left: 0px !important;
+}
 #contact-section .social ul li {
 	display: inline-block;
 	margin: 0 20px;
@@ -745,7 +770,7 @@ label {
 	transition: all 0.5s;
 }
 #contact-section .social i.fa:hover {
-	color: #032731;
+	color: #ffffff;
 }
 #contact-section .btn {
 	background: transparent;
@@ -776,6 +801,24 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
+
+.network-section a
+{
+	color: white;
+	font-size: medium;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.network-section ul
+{
+	padding-left: 0 !important;
+}
+
+.network-section ul li a:hover
+{
+	color: #f1c40f !important;
+}
+
 /* Footer */
 #footer {
 	background: #032731;
